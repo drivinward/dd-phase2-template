@@ -16,18 +16,18 @@
     <link href="https://fonts.googleapis.com/css?family=Archivo+Black|Chivo:400,700" rel="stylesheet">
 
     <!-- third-generation iPad with high-resolution Retina display: -->
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/images/favicons/favicon144.png">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ '/assets/images/favicons/favicon144.png' | relative_url }}">
     <!-- iPhone with high-resolution Retina display: -->
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/assets/images/favicons/favicon114.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{ '/assets/images/favicons/favicon114.png' | relative_url }}">
     <!-- first- and second-generation iPad: -->
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/assets/images/favicons/favicon72.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{ '/assets/images/favicons/favicon72.png' | relative_url }}">
     <!-- non-Retina iPhone, iPod Touch, and Android 2.1+ devices: -->
-    <link rel="apple-touch-icon-precomposed" href="/assets/images/favicons/favicon57.png">
+    <link rel="apple-touch-icon-precomposed" href="{{ '/assets/images/favicons/favicon57.png'  | relative_url }}">
     <!-- basic favicon -->
-    <link rel="shortcut icon" href="/assets/images/favicons/favicon32.png">
+    <link rel="shortcut icon" href="{{ '/assets/images/favicons/favicon32.png' | relative_url }}">
 
-    <link rel="stylesheet" href="/assets/css/styles.css">
-    <link rel="stylesheet" href="/assets/css/custom-styles.css">
+    <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/custom-styles.css' | relative_url }}">
 </head>
 
 <body>
@@ -38,10 +38,10 @@
     {% if page.is_question == true %}
         <script src="https://unpkg.com/intersection-observer@0.5.0/intersection-observer.js" charset="utf-8"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollama/1.4.4/scrollama.min.js" integrity="sha256-1NHjvSjKf8OP+R7cPyIewcfSj2GoMuiKkZechn/9y0Y=" crossorigin="anonymous"></script>
-        <script src="/assets/js/scroll.js" charset="utf-8"></script>
+        <script src="{{ '/assets/js/scroll.js' | relative_url }}" charset="utf-8"></script>
     {% endif %}
-    <script src="/assets/js/main.js" charset="utf-8"></script>
-    <script src="/assets/js/custom-scripts.js" charset="utf-8"></script>
+    <script src="{{ '/assets/js/main.js' | relative_url }}" charset="utf-8"></script>
+    <script src="{{ '/assets/js/custom-scripts.js' | relative_url }}" charset="utf-8"></script>
 </body>
 
 </html>
