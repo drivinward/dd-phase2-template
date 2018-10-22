@@ -3,7 +3,7 @@
         --container-width: 540px;
     }
     h1 {
-        font-size: 4rem;
+        font-size: 3.2rem;
     }
     .index {
         grid-template:  "title" 30px
@@ -25,7 +25,7 @@
     main.content {
         margin: 9rem auto 5rem;
     }
-    .intro__text {
+    .intro p {
         font-size: 1.5rem;
     }
     .question__heading {

@@ -1,7 +1,7 @@
 nav {
     position: fixed;
     top: 0;
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     color: var(--color-light);
     z-index: 99;
@@ -192,5 +192,5 @@ nav.nav--open {
 
 nav.nav--open .nav__background,
 nav.nav--open .nav__container {
-    width: 100vw;
+    width: 100%;
 }
