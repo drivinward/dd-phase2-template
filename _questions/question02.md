@@ -1,6 +1,6 @@
 ---
 title: A crucial question is how to interpret our drawing.
-cover: covers/viz02.jpg
+cover: /assets/images/covers/viz02.jpg
 number: 2
 ---
 ### Description
