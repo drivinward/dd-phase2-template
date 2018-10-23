@@ -1,6 +1,6 @@
 ---
 title: How many times do we move forward?
-cover: covers/cover@xl.jpeg
+cover: covers/viz01.jpg
 number: 1
 ---
 ### Description
