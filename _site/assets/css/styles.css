@@ -204,7 +204,7 @@ main.content { margin: 5.5rem auto 5rem; }
 
 .question__content h3::before { content: ""; position: absolute; width: calc(100% + 1.3rem); top: 0; left: 0; height: 1.5px; background-color: var(--color-main); }
 
-.question__content h5 { margin: 0 0 0.7rem; font-size: 0.8rem; font-weight: 400; text-transform: uppercase; }
+.question__content h5 { margin: 0 0 0.7rem; font-size: 0.9rem; font-weight: 400; text-transform: uppercase; }
 
 .question__content h5 a { position: relative; text-transform: none; color: var(--color-main); }
 

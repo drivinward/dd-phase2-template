@@ -21,6 +21,6 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 ### Data
 ##### Data Source: [DensityDesign](http://densitydesign.org/)
 ##### Timestamp: 19/10/2018
-##### [<span>&darr;</span> Download the Data (500Kb)](http://densitydesign.org/)
+##### [View Data (500Kb)](http://densitydesign.org/)
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
