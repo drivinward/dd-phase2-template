@@ -106,11 +106,6 @@ a {
     transition-delay: 0.2s;
 }
 
-.btn--burger:hover .btn--burger__line {
-    -webkit-transform: translateX(32px);
-    transform: translateX(32px);
-}
-
 .btn--burger__line::before {
     content: "";
     width: 100%;
@@ -180,9 +175,4 @@ a {
 .btn--close.nav--open .btn--close__line::after {
     -webkit-transform: rotate(90deg) scaleX(1.1);
     transform: rotate(90deg) scaleX(1.1);
-}
-
-.btn--close.nav--open:hover .btn--close__line {
-    -webkit-transform: rotate(135deg) scaleX(1.1);
-    transform: rotate(135deg) scaleX(1.1);
 }
